@@ -57,3 +57,4 @@ $ heroku config
 # delete a specific environment variable
 $ heroku config:unset <ENV_VAR_NAME>
 ```
+heroku config:unset

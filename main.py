@@ -20,7 +20,7 @@ def index():
 def push_sample():
     """プッシュメッセージを送る"""
     user_id = os.environ['USER_ID']
-    line_bot_api.push_message(user_id, TextSendMessage(text='Hello World!'))
+    line_bot_api.push_message(user_id, TextSendMessage(text='o-i'))
 
     return 'OK'
 
